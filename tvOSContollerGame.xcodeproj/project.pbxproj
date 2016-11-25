@@ -17,6 +17,7 @@
 		2CBF7DB41DE8A98500AF1399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF7DB31DE8A98500AF1399 /* Assets.xcassets */; };
 		2CBF7DBF1DE8A98500AF1399 /* tvOSContollerGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF7DBE1DE8A98500AF1399 /* tvOSContollerGameTests.swift */; };
 		2CBF7DCA1DE8A98500AF1399 /* tvOSContollerGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF7DC91DE8A98500AF1399 /* tvOSContollerGameUITests.swift */; };
+		2CBF7DD81DE8A9A700AF1399 /* GameScene_GameControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF7DD71DE8A9A700AF1399 /* GameScene_GameControllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2CBF7DC51DE8A98500AF1399 /* tvOSContollerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvOSContollerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBF7DC91DE8A98500AF1399 /* tvOSContollerGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSContollerGameUITests.swift; sourceTree = "<group>"; };
 		2CBF7DCB1DE8A98500AF1399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CBF7DD71DE8A9A700AF1399 /* GameScene_GameControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene_GameControllers.swift; path = ../GameScene_GameControllers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		2CBF7DA31DE8A98500AF1399 /* tvOSContollerGame */ = {
 			isa = PBXGroup;
 			children = (
+				2CBF7DD71DE8A9A700AF1399 /* GameScene_GameControllers.swift */,
 				2CBF7DA41DE8A98500AF1399 /* AppDelegate.swift */,
 				2CBF7DA61DE8A98500AF1399 /* GameScene.sks */,
 				2CBF7DA81DE8A98500AF1399 /* Actions.sks */,
@@ -275,6 +278,7 @@
 			files = (
 				2CBF7DAD1DE8A98500AF1399 /* GameScene.swift in Sources */,
 				2CBF7DAF1DE8A98500AF1399 /* GameViewController.swift in Sources */,
+				2CBF7DD81DE8A9A700AF1399 /* GameScene_GameControllers.swift in Sources */,
 				2CBF7DA51DE8A98500AF1399 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
