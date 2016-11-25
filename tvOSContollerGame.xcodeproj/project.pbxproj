@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CBF7DA51DE8A98500AF1399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF7DA41DE8A98500AF1399 /* AppDelegate.swift */; };
+		2CBF7DA71DE8A98500AF1399 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF7DA61DE8A98500AF1399 /* GameScene.sks */; };
+		2CBF7DA91DE8A98500AF1399 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF7DA81DE8A98500AF1399 /* Actions.sks */; };
+		2CBF7DAB1DE8A98500AF1399 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF7DAA1DE8A98500AF1399 /* Game.xcassets */; };
+		2CBF7DAD1DE8A98500AF1399 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF7DAC1DE8A98500AF1399 /* GameScene.swift */; };
+		2CBF7DAF1DE8A98500AF1399 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF7DAE1DE8A98500AF1399 /* GameViewController.swift */; };
+		2CBF7DB21DE8A98500AF1399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF7DB01DE8A98500AF1399 /* Main.storyboard */; };
+		2CBF7DB41DE8A98500AF1399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF7DB31DE8A98500AF1399 /* Assets.xcassets */; };
+		2CBF7DBF1DE8A98500AF1399 /* tvOSContollerGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF7DBE1DE8A98500AF1399 /* tvOSContollerGameTests.swift */; };
+		2CBF7DCA1DE8A98500AF1399 /* tvOSContollerGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF7DC91DE8A98500AF1399 /* tvOSContollerGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CBF7DBB1DE8A98500AF1399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBF7D991DE8A98500AF1399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CBF7DA01DE8A98500AF1399;
+			remoteInfo = tvOSContollerGame;
+		};
+		2CBF7DC61DE8A98500AF1399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBF7D991DE8A98500AF1399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CBF7DA01DE8A98500AF1399;
+			remoteInfo = tvOSContollerGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CBF7DA11DE8A98500AF1399 /* tvOSContollerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSContollerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF7DA41DE8A98500AF1399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CBF7DA61DE8A98500AF1399 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2CBF7DA81DE8A98500AF1399 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		2CBF7DAA1DE8A98500AF1399 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		2CBF7DAC1DE8A98500AF1399 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2CBF7DAE1DE8A98500AF1399 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2CBF7DB11DE8A98500AF1399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CBF7DB31DE8A98500AF1399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CBF7DB51DE8A98500AF1399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CBF7DBA1DE8A98500AF1399 /* tvOSContollerGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvOSContollerGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF7DBE1DE8A98500AF1399 /* tvOSContollerGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSContollerGameTests.swift; sourceTree = "<group>"; };
+		2CBF7DC01DE8A98500AF1399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CBF7DC51DE8A98500AF1399 /* tvOSContollerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvOSContollerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF7DC91DE8A98500AF1399 /* tvOSContollerGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSContollerGameUITests.swift; sourceTree = "<group>"; };
+		2CBF7DCB1DE8A98500AF1399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CBF7D9E1DE8A98500AF1399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF7DB71DE8A98500AF1399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF7DC21DE8A98500AF1399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CBF7D981DE8A98500AF1399 = {
+			isa = PBXGroup;
+			children = (
+				2CBF7DA31DE8A98500AF1399 /* tvOSContollerGame */,
+				2CBF7DBD1DE8A98500AF1399 /* tvOSContollerGameTests */,
+				2CBF7DC81DE8A98500AF1399 /* tvOSContollerGameUITests */,
+				2CBF7DA21DE8A98500AF1399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CBF7DA21DE8A98500AF1399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF7DA11DE8A98500AF1399 /* tvOSContollerGame.app */,
+				2CBF7DBA1DE8A98500AF1399 /* tvOSContollerGameTests.xctest */,
+				2CBF7DC51DE8A98500AF1399 /* tvOSContollerGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CBF7DA31DE8A98500AF1399 /* tvOSContollerGame */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF7DA41DE8A98500AF1399 /* AppDelegate.swift */,
+				2CBF7DA61DE8A98500AF1399 /* GameScene.sks */,
+				2CBF7DA81DE8A98500AF1399 /* Actions.sks */,
+				2CBF7DAA1DE8A98500AF1399 /* Game.xcassets */,
+				2CBF7DAC1DE8A98500AF1399 /* GameScene.swift */,
+				2CBF7DAE1DE8A98500AF1399 /* GameViewController.swift */,
+				2CBF7DB01DE8A98500AF1399 /* Main.storyboard */,
+				2CBF7DB31DE8A98500AF1399 /* Assets.xcassets */,
+				2CBF7DB51DE8A98500AF1399 /* Info.plist */,
+			);
+			path = tvOSContollerGame;
+			sourceTree = "<group>";
+		};
+		2CBF7DBD1DE8A98500AF1399 /* tvOSContollerGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF7DBE1DE8A98500AF1399 /* tvOSContollerGameTests.swift */,
+				2CBF7DC01DE8A98500AF1399 /* Info.plist */,
+			);
+			path = tvOSContollerGameTests;
+			sourceTree = "<group>";
+		};
+		2CBF7DC81DE8A98500AF1399 /* tvOSContollerGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF7DC91DE8A98500AF1399 /* tvOSContollerGameUITests.swift */,
+				2CBF7DCB1DE8A98500AF1399 /* Info.plist */,
+			);
+			path = tvOSContollerGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CBF7DA01DE8A98500AF1399 /* tvOSContollerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBF7DCE1DE8A98500AF1399 /* Build configuration list for PBXNativeTarget "tvOSContollerGame" */;
+			buildPhases = (
+				2CBF7D9D1DE8A98500AF1399 /* Sources */,
+				2CBF7D9E1DE8A98500AF1399 /* Frameworks */,
+				2CBF7D9F1DE8A98500AF1399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOSContollerGame;
+			productName = tvOSContollerGame;
+			productReference = 2CBF7DA11DE8A98500AF1399 /* tvOSContollerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CBF7DB91DE8A98500AF1399 /* tvOSContollerGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBF7DD11DE8A98500AF1399 /* Build configuration list for PBXNativeTarget "tvOSContollerGameTests" */;
+			buildPhases = (
+				2CBF7DB61DE8A98500AF1399 /* Sources */,
+				2CBF7DB71DE8A98500AF1399 /* Frameworks */,
+				2CBF7DB81DE8A98500AF1399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CBF7DBC1DE8A98500AF1399 /* PBXTargetDependency */,
+			);
+			name = tvOSContollerGameTests;
+			productName = tvOSContollerGameTests;
+			productReference = 2CBF7DBA1DE8A98500AF1399 /* tvOSContollerGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CBF7DC41DE8A98500AF1399 /* tvOSContollerGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBF7DD41DE8A98500AF1399 /* Build configuration list for PBXNativeTarget "tvOSContollerGameUITests" */;
+			buildPhases = (
+				2CBF7DC11DE8A98500AF1399 /* Sources */,
+				2CBF7DC21DE8A98500AF1399 /* Frameworks */,
+				2CBF7DC31DE8A98500AF1399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CBF7DC71DE8A98500AF1399 /* PBXTargetDependency */,
+			);
+			name = tvOSContollerGameUITests;
+			productName = tvOSContollerGameUITests;
+			productReference = 2CBF7DC51DE8A98500AF1399 /* tvOSContollerGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CBF7D991DE8A98500AF1399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sam Stevens";
+				TargetAttributes = {
+					2CBF7DA01DE8A98500AF1399 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XFVFYF95HX;
+						ProvisioningStyle = Automatic;
+					};
+					2CBF7DB91DE8A98500AF1399 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XFVFYF95HX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CBF7DA01DE8A98500AF1399;
+					};
+					2CBF7DC41DE8A98500AF1399 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XFVFYF95HX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CBF7DA01DE8A98500AF1399;
+					};
+				};
+			};
+			buildConfigurationList = 2CBF7D9C1DE8A98500AF1399 /* Build configuration list for PBXProject "tvOSContollerGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CBF7D981DE8A98500AF1399;
+			productRefGroup = 2CBF7DA21DE8A98500AF1399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CBF7DA01DE8A98500AF1399 /* tvOSContollerGame */,
+				2CBF7DB91DE8A98500AF1399 /* tvOSContollerGameTests */,
+				2CBF7DC41DE8A98500AF1399 /* tvOSContollerGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CBF7D9F1DE8A98500AF1399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF7DA71DE8A98500AF1399 /* GameScene.sks in Resources */,
+				2CBF7DA91DE8A98500AF1399 /* Actions.sks in Resources */,
+				2CBF7DAB1DE8A98500AF1399 /* Game.xcassets in Resources */,
+				2CBF7DB21DE8A98500AF1399 /* Main.storyboard in Resources */,
+				2CBF7DB41DE8A98500AF1399 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF7DB81DE8A98500AF1399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF7DC31DE8A98500AF1399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CBF7D9D1DE8A98500AF1399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF7DAD1DE8A98500AF1399 /* GameScene.swift in Sources */,
+				2CBF7DAF1DE8A98500AF1399 /* GameViewController.swift in Sources */,
+				2CBF7DA51DE8A98500AF1399 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF7DB61DE8A98500AF1399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF7DBF1DE8A98500AF1399 /* tvOSContollerGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF7DC11DE8A98500AF1399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF7DCA1DE8A98500AF1399 /* tvOSContollerGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CBF7DBC1DE8A98500AF1399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CBF7DA01DE8A98500AF1399 /* tvOSContollerGame */;
+			targetProxy = 2CBF7DBB1DE8A98500AF1399 /* PBXContainerItemProxy */;
+		};
+		2CBF7DC71DE8A98500AF1399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CBF7DA01DE8A98500AF1399 /* tvOSContollerGame */;
+			targetProxy = 2CBF7DC61DE8A98500AF1399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CBF7DB01DE8A98500AF1399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CBF7DB11DE8A98500AF1399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CBF7DCC1DE8A98500AF1399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2CBF7DCD1DE8A98500AF1399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CBF7DCF1DE8A98500AF1399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = XFVFYF95HX;
+				INFOPLIST_FILE = tvOSContollerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samuelstevens.tvOSContollerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2CBF7DD01DE8A98500AF1399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = XFVFYF95HX;
+				INFOPLIST_FILE = tvOSContollerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samuelstevens.tvOSContollerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2CBF7DD21DE8A98500AF1399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XFVFYF95HX;
+				INFOPLIST_FILE = tvOSContollerGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samuelstevens.tvOSContollerGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOSContollerGame.app/tvOSContollerGame";
+			};
+			name = Debug;
+		};
+		2CBF7DD31DE8A98500AF1399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XFVFYF95HX;
+				INFOPLIST_FILE = tvOSContollerGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samuelstevens.tvOSContollerGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOSContollerGame.app/tvOSContollerGame";
+			};
+			name = Release;
+		};
+		2CBF7DD51DE8A98500AF1399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XFVFYF95HX;
+				INFOPLIST_FILE = tvOSContollerGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samuelstevens.tvOSContollerGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tvOSContollerGame;
+			};
+			name = Debug;
+		};
+		2CBF7DD61DE8A98500AF1399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XFVFYF95HX;
+				INFOPLIST_FILE = tvOSContollerGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.samuelstevens.tvOSContollerGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tvOSContollerGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CBF7D9C1DE8A98500AF1399 /* Build configuration list for PBXProject "tvOSContollerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBF7DCC1DE8A98500AF1399 /* Debug */,
+				2CBF7DCD1DE8A98500AF1399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBF7DCE1DE8A98500AF1399 /* Build configuration list for PBXNativeTarget "tvOSContollerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBF7DCF1DE8A98500AF1399 /* Debug */,
+				2CBF7DD01DE8A98500AF1399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CBF7DD11DE8A98500AF1399 /* Build configuration list for PBXNativeTarget "tvOSContollerGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBF7DD21DE8A98500AF1399 /* Debug */,
+				2CBF7DD31DE8A98500AF1399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CBF7DD41DE8A98500AF1399 /* Build configuration list for PBXNativeTarget "tvOSContollerGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBF7DD51DE8A98500AF1399 /* Debug */,
+				2CBF7DD61DE8A98500AF1399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CBF7D991DE8A98500AF1399 /* Project object */;
+}
